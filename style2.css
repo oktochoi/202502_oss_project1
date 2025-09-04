@@ -1,0 +1,35 @@
+.title{
+    color: #4CAF50;
+}
+
+.button{
+    width: 165px;
+    float:left;
+    background-color: #555555;
+    margin:4px;
+    padding:2px;
+    list-style-type: none;
+    color:white;
+    text-align: center;
+    cursor:pointer;
+}
+
+.choose{
+    width: 165px;
+    float:left;
+    background-color: #04AA6D;
+    list-style-type: none;
+    margin:4px;
+    padding:2px;
+    text-align: center;
+    cursor:pointer;
+    color:white;
+}
+
+.border{
+    margin-top:10px;
+    border:1px solid #d4d4d4;
+    background-color: #f1f1f1;
+    padding: left 10px;
+    line-height:26px;
+}
