@@ -1,5 +1,10 @@
+.pd{
+  padding-left: 15px;  
+}
+
 .title{
     color: #4CAF50;
+    font-weight: bold;
 }
 
 .button{
@@ -12,6 +17,12 @@
     color:white;
     text-align: center;
     cursor:pointer;
+}
+
+.button a {
+  text-decoration: none; 
+  color: inherit;      
+  display: block;      
 }
 
 .choose{
@@ -32,4 +43,7 @@
     background-color: #f1f1f1;
     padding: left 10px;
     line-height:26px;
+}
+.p{
+    padding:10px;
 }
