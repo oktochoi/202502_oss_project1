@@ -1,4 +1,5 @@
-.a {
+.aa {
+    width:1100px;
     padding-left: 15px;
 }
 .header{
@@ -6,36 +7,60 @@
     color:#ffffff;
     border-radius: 4px;
     margin:4px;
-    padding:15px;
-    display: block;
+    height: 80px;
+    padding-left:15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+
+#se{
+    margin: 0px;
+}
+
+.titles{
+    padding:0px;
+    margin:0px;
+}
+
 .button {
-    width: 165px;
+    width: 192px;
+    height:32px;
+    padding:2px;
     background-color: #f1f1f1;
     border: 1px solid #d4d4d4;
     margin: 4px;
     list-style-type: none;
     color: black;
     cursor: pointer;
-}
-.big-grid{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    text-decoration: none;
 }
 
+.no{
+        text-decoration: none;
+
+}
+
+.big-grid {
+    display: flex;
+    gap: 8px;
+}
+
+
 .grid {
-    display: grid;
-    grid-template-rows: repeat(5, 1fr);
+    display: flex;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 .grid3{
     width:670px;
     display: grid;
-    grid-template-rows: repeat(2, 1fr);    
 }
 
 .choose {
-    width: 165px;
+    width: 196px;
+    height:32px;
+    padding:2px;
     background-color: #04AA6D;
     list-style-type: none;
     font-weight: bold;
@@ -49,14 +74,24 @@
     color: #ffffff;
     padding: 10px;
     width: 180px;
+    height:330px;
     border-radius: 4px;
     margin: 4px;
 }
 
-.border {
+.borders {
     margin-top: 10px;
     border: 1px solid #d4d4d4;
     background-color: #f1f1f1;
     padding: left 10px;
     line-height: 26px;
+}
+
+.title{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.titless{
+    margin-top:10px;
+    margin-bottom: 0px;
 }
